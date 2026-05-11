@@ -214,3 +214,7 @@ slurm_logs/
 experiments/
 figures/
 *sif
+paper.tex
+*.aux
+*.log
+*.pdf
