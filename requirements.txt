@@ -1,0 +1,38 @@
+# --- Core ML & LLM Frameworks ---
+vllm @ https://github.com/vllm-project/vllm/releases/download/v0.20.0/vllm-0.20.0+cu129-cp38-abi3-manylinux_2_31_x86_64.whl
+torch==2.11.0+cu129
+torchvision==0.26.0+cu129
+torchaudio==2.11.0+cu129
+transformers==5.8.0
+accelerate==1.13.0
+triton==3.6.0
+flashinfer-python==0.6.8.post1
+
+# --- Data Science & Utilities ---
+datasets==4.8.5
+numpy==2.3.5
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+einops==0.8.2
+opencv-python-headless==4.13.0.92
+pillow==12.2.0
+
+# --- API Clients & LLM Tools ---
+openai==2.36.0
+anthropic==0.100.0
+mistral_common==1.11.2
+tiktoken==0.12.0
+lm-format-enforcer==0.11.3
+
+# --- Web Server & App Framework ---
+fastapi==0.136.1
+uvicorn==0.46.0
+pydantic==2.13.4
+requests==2.33.1
+httpx==0.28.1
+
+# --- CLI & Logging ---
+typer==0.25.1
+click==8.3.3
+loguru==0.7.3
