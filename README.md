@@ -172,6 +172,8 @@ This codebase builds on the following open-source projects:
 - **[TopMost](https://github.com/BobXWu/TopMost)** — Baseline topic model implementations in `baselines/` are adapted from TopMost.
 - **[dictionary_learning](https://github.com/saprmarks/dictionary_learning)** — SAE training infrastructure in `libraries/dictionary_learning/` is adapted from this library.
 
+Please also check [SAETopic](https://github.com/TerenceLiu98/SAETopic) for an implementation of SAE-TM with an API in a style inspired by BERTopic for fitting, topic inspection, save/load, and changing topic granularity without retraining.
+
 ---
 
 ## Citation
